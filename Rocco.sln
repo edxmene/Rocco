@@ -3,9 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0DCDEB4-EF51-426C-A708-B662B0E96266}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DF66D0C-5B03-4C51-8A16-C24837D04983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{32DFABA9-A725-417F-8BFA-99BEB218B277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F33C7B62-3863-4CDC-9C1F-8DBA4C7E3D64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C34BE288-6A1D-40C6-8648-FA993A49463B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{07065762-992D-4BB2-AF8F-9258F8C33885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POSTMAN-Collection", "POSTMAN-Collection", "{9F800EDB-4EF6-4997-94C0-25388E68B3DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoccoDomain", "src\RoccoDomain\RoccoDomain.csproj", "{787A773D-538F-4003-9673-28D18FAEE30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocco.Web.API", "..\..\APIProjectRocco\src\Rocco.Web.API\Rocco.Web.API.csproj", "{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{787A773D-538F-4003-9673-28D18FAEE30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787A773D-538F-4003-9673-28D18FAEE30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787A773D-538F-4003-9673-28D18FAEE30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787A773D-538F-4003-9673-28D18FAEE30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32DFABA9-A725-417F-8BFA-99BEB218B277} = {0DF66D0C-5B03-4C51-8A16-C24837D04983}
+		{F33C7B62-3863-4CDC-9C1F-8DBA4C7E3D64} = {0DF66D0C-5B03-4C51-8A16-C24837D04983}
+		{C34BE288-6A1D-40C6-8648-FA993A49463B} = {0DF66D0C-5B03-4C51-8A16-C24837D04983}
+		{9F800EDB-4EF6-4997-94C0-25388E68B3DB} = {07065762-992D-4BB2-AF8F-9258F8C33885}
+		{787A773D-538F-4003-9673-28D18FAEE30A} = {F33C7B62-3863-4CDC-9C1F-8DBA4C7E3D64}
+		{16CD25B8-C05E-4E6F-B466-0D0E8BEF6700} = {32DFABA9-A725-417F-8BFA-99BEB218B277}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC19985A-2E5B-4EB3-B71C-BF08CD8D5FC9}
